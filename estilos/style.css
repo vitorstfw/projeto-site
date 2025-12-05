@@ -4,16 +4,18 @@ body{
 background-image: linear-gradient(to bottom,  rgba(175, 201, 123, 0.211),white);
 }
 
-
 header{
-    background-image: url(../imagem/cozinha-luxo.jpg.jpg);
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-size:cover;
-    background-position:center top;
-    height: 595px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
 }
+
+.container{
+    background-image: url(../imagem/cozinha-luxo.jpg.jpg);
+}
+
 
 header > p{
     background-color: rgba(128, 128, 128, 0.359);
@@ -40,7 +42,7 @@ header > h1{
     color: rgb(253, 253, 253);
      background-color: rgba(128, 128, 128, 0.359);
   font-size: 3em;
-  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.214);
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.111);
   margin:15px 20px 0px 20px;
 }
 
@@ -114,6 +116,7 @@ section > p{
 
 .caixa{
     display: inline-block;
+        background-color: rgba(128, 128, 128, 0.359);
     width: 200px;
     height: 150px;
     margin: 10px;
